@@ -160,11 +160,7 @@ void loop() {
     } else {
       dartLeft = ammoLimit;
     }    
-
-    
     updateDisplay(dartLeft);
-  } else if (btnDartCountUp.rose()) { // released, dart count up          
-
   }
 
   /////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -181,8 +177,6 @@ void loop() {
       }
     }
     updateDisplay(dartLeft);
-  } else if (btnDartCountDown.rose()) { // released, dart count down         
-
   }
 
   /////////////////////////////////////////////////////////////////////////////////////////////////////
